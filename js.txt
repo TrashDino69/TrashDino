@@ -1,0 +1,20 @@
+document.cookie = "GZD3zrpjo1jApwtwPq4WH1G4xAgAPwjP=rN9aywsyd7UdYLuf0ynrbM9UQJeBzbcze";
+alert("Welcome to Multis. You must use this everytime you want to access multis.");
+cloak = prompt("What initial cloak would you like to use? 1 for Khan Academy, 2 for Quizlet, 3 for IXL, 4 for Quizizz, 5 for Clever, 6 for Blooket, and 7 for Edpuzzle.");
+
+if (cloak === '1') {
+document.cookie = 'initialCloak=Khan Academy'
+} else if (cloak === '2') {
+document.cookie = 'initialCloak=Quizlet'
+} else if (cloak === '3') {
+document.cookie = 'initialCloak=IXL'
+} else if (cloak === '4') {
+document.cookie = 'initialCloak=Quizizz'
+} else if (cloak === '5') {
+document.cookie = 'initialCloak=Clever'
+} else if (cloak === '6') {
+document.cookie = 'initialCloak=Blooket'
+} else if (cloak === '7') {
+document.cookie = 'initialCloak=Edpuzzle'
+}
+window.location.reload();
